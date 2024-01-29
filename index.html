@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- animation link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- sign-up form  -->
+    <div id="container">
+      <div id="page">
+        <div id="signUp" class="animate__animated animate__flipInY">
+          <h1>Sign Up</h1>
+          <form method="post" id="signUp_frm" autocomplete="off">
+            <input type="text" id="Username" required placeholder="Name" />
+            <input type="email" id="email" required placeholder="E-mail" />
+            <input type="number" id="number" required placeholder="Number" />
+            <input
+              id="password"
+              type="password"
+              required
+              placeholder="Password"
+            />
+            <button id="signUp_btn" type="submit">Sign Up</button>
+          </form>
+          <!-- <p class="login_here">Already Have Account? <span>Login</span></p> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
